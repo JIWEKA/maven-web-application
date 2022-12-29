@@ -92,7 +92,7 @@
 		</dependency>
 		
 	</dependencies>
-	
+	 
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
@@ -109,7 +109,7 @@
 	</distributionManagement>
 	
 	<build>
-		<finalName>maven-web-app</finalName>
+		<finalName>tesla2-app</finalName>
 		
 		<plugins>
 			<plugin>
