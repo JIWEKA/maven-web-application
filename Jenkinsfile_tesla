@@ -23,6 +23,7 @@ node{
       }
   }
     stage('7deploy2Prod'){
+      sh "sleep  50"
         sh "echo 'deploy to UAT'  "
      stage('8emailNotification'){
          emailext body: '''Hi All,
